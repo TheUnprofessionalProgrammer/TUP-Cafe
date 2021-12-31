@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) no-repeat center center/cover;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+    margin: 10px 0;
+}
+
+#logo img{
+    cursor: pointer;
+    border-radius: 200px;
+    max-width: 40%;
+}
+
+#ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    list-style: none;
+}
+
+.item a{
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.item a:hover{
+    /* border-radius: 30px; */
+    color: #f9ba2d;
+    transition: all 1s ease;
+}
+
+
+.center{
+    /* margin-top: 2%; */
+    text-align: center;
+}
+
+
+.cafeBody{
+    background: linear-gradient(#f9ba2d, black);
+}
+
+.nameTag{
+    background-color: black;
+    max-width: 14%;
+    margin: auto;
+    padding-bottom: 3%;
+    border-radius: 0 0 100% 100%;
+}
+
+.thecafe{
+    padding: 30px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 74%;
+    margin: auto;
+    font-size: 18px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 100% 100% 40% 40%;
+}
+
+.yellow{
+    color: #f9ba2d;
+}
+
+.containerBody{
+    font-family: 'Mate SC', serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(206, 205, 205);
+    max-width: 80%;
+    margin: auto;
+    padding: 1.5% 0;
+}
+
+.menuHeading{
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    background-color: black;
+    color: #f9ba2d;
+    padding: 10px 0;
+    max-width: 28%;
+    border-radius: 0 100px 0 100px;
+    margin-bottom: 15px;
+}
+
+.menuHeading h5{
+    color: white;
+}
+
+.grid{
+    /* background-color: rebeccapurple; */
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 60px;
+    padding-bottom: 20px;
+}
+
+.maggieAndpizza{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    margin: auto;
+}
+
+.items{
+    padding: 20px 0;
+}
+
+.MenuHeading1{
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    background-color: black;
+    color: #f9ba2d;
+    padding: 10px 0;
+    max-width: 36%;
+    border-radius: 0 0 0 100px;
+    margin-bottom: 15px;
+}
+
+.MenuHeading2{
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    background-color: black;
+    color: #f9ba2d;
+    padding: 10px 0;
+    max-width: 36%;
+    border-radius: 0 100px 0 0;
+    margin-bottom: 15px;
+}
